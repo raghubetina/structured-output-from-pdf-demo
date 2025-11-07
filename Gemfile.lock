@@ -1,0 +1,31 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ai-chat (0.2.4)
+      base64 (> 0.1.1)
+      json (~> 2.0)
+      marcel (~> 1.0)
+      openai (~> 0.16)
+      tty-spinner (~> 0.9.3)
+    amazing_print (2.0.0)
+    base64 (0.3.0)
+    connection_pool (2.5.4)
+    dotenv (3.1.8)
+    json (2.16.0)
+    marcel (1.1.0)
+    openai (0.35.1)
+      connection_pool
+    tty-cursor (0.7.1)
+    tty-spinner (0.9.3)
+      tty-cursor (~> 0.7)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  ai-chat
+  amazing_print
+  dotenv
+
+BUNDLED WITH
+   2.4.6
